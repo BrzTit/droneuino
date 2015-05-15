@@ -33,7 +33,7 @@ void loop()
  
  Serial.print("Message sent: ");
  Serial.println(charMsg);
- Serial.println(strlen(charMsg));
+ //Serial.println(strlen(charMsg));
  
  powerValueAsString = ""; //empty for the next iteration
  delay(1000);
